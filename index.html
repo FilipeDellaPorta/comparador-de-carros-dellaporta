@@ -19,25 +19,35 @@
         <h1 class="cabecalho__titulo">Compare os carros</h1>
     </header>
     <main class="principal">
-            <div class="principal__cards">
-                <label for="carro">Digite o carro:</label>
-                <input type="text" id="carro" name="carro">
-                <div class="car-slot">
-                    <span class="plus">+</span>
-                </div>
+        <div class="principal__cards">
+            <div class="label-flutuante">
+                <input type="text" id="carro-a" class="carro-input" name="carro" placeholder="">
+                <label for="carro-a">
+                    <span class="carro-span">Digite o carro:</span>
+                </label>
             </div>
-            <div class="principal__cards">
-                <label for="carro">Digite o carro:</label>
-                <input type="text" id="carro" name="carro">
-                <div class="car-slot">
-                    <span class="plus">+</span>
-                </div>
+            <div class="car-slot">
+                <span class="plus">+</span>
             </div>
+            <ul class="lista-sugerida"></ul>
+        </div>
+        <div class="principal__cards">
+            <div class="label-flutuante">
+                <input type="text" id="carro-b" class="carro-input" name="carro" placeholder="">
+                <label for="carro-b">
+                    <span class="carro-span">Digite o carro:</span>
+                </label>
+            </div>
+            <div class="car-slot">
+                <span class="plus">+</span>
+            </div>
+            <ul class="lista-sugerida"></ul>
+        </div>
     </main>
     <footer class="rodape">
         <p class="rodape__paragrafo">&copy; 2025 Todos os direitos reservados.</p>
     </footer>
-    
+
     <script src="./index.js" type="module"></script>
 </body>
 
