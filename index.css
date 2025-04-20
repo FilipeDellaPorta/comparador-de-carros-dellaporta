@@ -69,6 +69,19 @@ body {
     overflow: hidden;
 }
 
+.input-lixeira {
+    display: flex;
+}
+
+.icone-lixeira {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.icone-lixeira:hover {
+    cursor: pointer;
+}
+
 input {
     color: var(--cor-texto);
     font-size: 28px;
