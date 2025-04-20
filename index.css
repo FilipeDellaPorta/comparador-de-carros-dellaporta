@@ -48,7 +48,12 @@ body {
     gap: 48px;
 }
 
-/*https://johnywalves.com.br/input-estilizado/ + ajuda do chat gpt para adaptação da estilização do input*/
+.rodape {
+    text-align: center;
+    padding: 24px;
+}
+
+/*https://johnywalves.com.br/input-estilizado/*/
 .principal__cards {
     display: flex;
     flex-direction: column;
@@ -65,25 +70,25 @@ body {
 }
 
 input {
-    color: #fff;
+    color: var(--cor-texto);
     font-size: 28px;
     width: 90%;
     padding: 20px 5px 5px;
-    background-color: #4f4f4f;
+    background-color: var(--cor-fundo);
     border: none;
     border-radius: 4px;
     outline: none;
 }
 
 label {
-    color: #fff;
+    color: var(--cor-texto);
     position: absolute;
     top: 0;
     left: 0;
     width: 95%;
     height: 100%;
     pointer-events: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid var(--cor-borda);
 }
 
 .carro-span {
@@ -121,9 +126,6 @@ input:focus+label::after {
     display: none;
 }
 
-
-/*---*/
-
 /*ajuda do chat gpt para criação da lista com nomes do carros*/
 .lista-sugerida {
     position: absolute;
@@ -131,7 +133,7 @@ input:focus+label::after {
     left: 0;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-borda);
     max-height: 200px;
     overflow-y: auto;
     display: none;
@@ -143,10 +145,8 @@ input:focus+label::after {
 }
 
 .lista-sugerida li:hover {
-    background-color: #f0f0f0;
+    background-color: var(--cor-destaque);
 }
-
-/*---*/
 
 /*ajuda do chat gpt para criação do card*/
 .car-slot {
@@ -165,11 +165,4 @@ input:focus+label::after {
 .plus {
     font-size: 3rem;
     color: var(--cor-borda);
-}
-
-/*---*/
-
-.rodape {
-    text-align: center;
-    padding: 24px;
 }
