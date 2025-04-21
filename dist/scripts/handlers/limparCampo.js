@@ -1,4 +1,4 @@
-import visibilidadeDaLixeira from './visibilidadeDaLixeira.js';
+import visibilidadeDaLixeira from '../utils/visibilidadeDaLixeira.js';
 function limparCampo() {
     const iconesLixeiras = document.querySelectorAll('.icone-lixeira');
     iconesLixeiras.forEach((lixeira) => {

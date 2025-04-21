@@ -1,5 +1,5 @@
-import visibilidadeDaLixeira from './visibilidadeDaLixeira.js';
-import filtrarCarros from './filtrarCarros.js';
+import visibilidadeDaLixeira from '../utils/visibilidadeDaLixeira.js';
+import filtrarCarros from '../services/filtrarCarros.js';
 import criarItensNaListaDeSugestoes from './criarItensNaListaDeSugestoes.js';
 function carregarLista(carro, input) {
     const listaSugerida = input.querySelector('.lista-sugerida');

@@ -1,5 +1,5 @@
-import debounce from './debounce.js';
-import carregarLista from './carregarLista.js';
+import debounce from '../utils/debounce.js';
+import carregarLista from '../components/carregarLista.js';
 function ouvirInputCarro(carro) {
     const input = carro.closest('.principal__cards');
     const debounceCarregarLista = debounce(() => {

@@ -1,4 +1,4 @@
-import verificarCardCarro from './js/verificarCardCarro.js';
-import limparCampo from './js/limparCampo.js';
+import verificarCardCarro from './utils/verificarCardCarro.js';
+import limparCampo from './handlers/limparCampo.js';
 verificarCardCarro();
 limparCampo();
