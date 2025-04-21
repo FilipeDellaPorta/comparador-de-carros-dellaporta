@@ -77,8 +77,8 @@ const listaCarros = [
     'jac e-jt9,5',
     'jac e-jt12,5',
 ];
-function filtrarCarros(carro) {
-    const carroDigitado = carro.value.toLowerCase();
-    return listaCarros.filter((carro) => carro.toLowerCase().includes(carroDigitado));
+function filtrarCarros(carroDigitadoNoInput) {
+    const carroDigitado = carroDigitadoNoInput.value.toLowerCase();
+    return listaCarros.filter((carroDaLista) => carroDaLista.toLowerCase().includes(carroDigitado));
 }
 export default filtrarCarros;

@@ -1,5 +1,5 @@
-function visibilidadeDaLixeira(carro, lixeira) {
-    if (carro.value.trim() !== '') {
+function visibilidadeDaLixeira(carroDigitadoNoInput, lixeira) {
+    if (carroDigitadoNoInput.value.trim() !== '') {
         lixeira.hidden = false;
     }
     else {
