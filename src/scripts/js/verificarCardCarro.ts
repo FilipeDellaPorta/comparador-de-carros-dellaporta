@@ -1,10 +1,12 @@
-import ouvirInputCarro from './js/ouvirInputCarro.js';
+import ouvirInputCarro from './ouvirInputCarro.js';
 
 function verificarCardCarro() {
   const carrosInput = document.querySelectorAll('.carro-input');
   const carros = Array.from(carrosInput);
   carros.forEach((carro) => {
-    ouvirInputCarro(carro);
+    if (carro instanceof HTMLInputElement) {
+      ouvirInputCarro(carro);
+    }
   });
 }
 

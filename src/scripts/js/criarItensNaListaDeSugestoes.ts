@@ -1,4 +1,8 @@
-function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carro) {
+function criarItensNaListaDeSugestoes(
+  sugestoes: string[],
+  listaSugerida: HTMLElement,
+  carro: HTMLInputElement
+) {
   sugestoes.forEach((sugestao) => {
     const itemLista = document.createElement('li');
     itemLista.textContent = sugestao;

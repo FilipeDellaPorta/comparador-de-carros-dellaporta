@@ -1,10 +1,12 @@
-import debounce from '../utils/debounce.js';
+import debounce from './debounce.js';
 import carregarLista from './carregarLista.js';
 
-function ouvirInputCarro(carro) {
+function ouvirInputCarro(carro: HTMLInputElement) {
   const input = carro.closest('.principal__cards');
   const debounceCarregarLista = debounce(() => {
-    carregarLista(carro, input);
+    if (input instanceof HTMLElement) {
+      carregarLista(carro, input);
+    }
   }, 100);
   carro.addEventListener('input', debounceCarregarLista);
 }
