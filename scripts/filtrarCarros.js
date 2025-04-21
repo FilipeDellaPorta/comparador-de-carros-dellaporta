@@ -67,6 +67,15 @@ const listaCarros = [
   'ford e-transit furgao',
   'chevrolet equinox ev',
   'chevrolet blazer ev',
+  'jac e-js1 city cargo',
+  'jac e-jv5.5',
+  'jac e-jv7l',
+  'jac e-jv12',
+  'jac iev-330p',
+  'jac e-jvcc',
+  'jac iev1200t',
+  'jac e-jt9,5',
+  'jac e-jt12,5',
 ];
 
 function filtrarCarros(carro) {
