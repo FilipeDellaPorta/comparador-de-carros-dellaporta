@@ -4,7 +4,8 @@ export interface Carro {
   autonomia_inmetro: string;
   torque_nm: string;
   torque_kgfm: string;
-  peso: string;
+  peso_total: string;
+  peso_em_ordem_de_marcha: string;
   velocidade_maxima: string;
   carregador_rapido_suportado: string;
   tempo_de_carregamento: string;

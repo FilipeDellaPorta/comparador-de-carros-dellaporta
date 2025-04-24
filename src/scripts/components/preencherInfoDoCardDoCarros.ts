@@ -20,7 +20,8 @@ function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
       Autonomia Inmetro: ${sugestao.autonomia_inmetro} <br>
       Torque em Newton-metro: ${sugestao.torque_nm} <br>
       Torque em quilograma-força por metro: ${sugestao.torque_kgfm} <br>
-      Peso: ${sugestao.peso} <br>
+      Peso total: ${sugestao.peso_total} <br>
+      Peso em ordem de marcha: ${sugestao.peso_em_ordem_de_marcha} <br>
       Velocidade máxima: ${sugestao.velocidade_maxima} <br>
       Carregador rápido: ${sugestao.carregador_rapido_suportado} <br>
       Tempo de carregamento: ${sugestao.tempo_de_carregamento} <br>
