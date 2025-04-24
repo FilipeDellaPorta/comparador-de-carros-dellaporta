@@ -1,5 +1,7 @@
+import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js'
+
 function criarItensNaListaDeSugestoes(
-  sugestoes: { carro: string }[],
+  sugestoes: { carro: string; motor: string }[],
   listaSugerida: HTMLElement,
   carroDigitadoNoInput: HTMLInputElement
 ) {
@@ -9,6 +11,8 @@ function criarItensNaListaDeSugestoes(
     itemLista.onclick = () => {
       carroDigitadoNoInput.value = sugestao.carro;
       listaSugerida.style.display = 'none';
+
+      preencherInfoDoCardDoCarro(sugestao, carroDigitadoNoInput)
     };
     listaSugerida.appendChild(itemLista);
   });

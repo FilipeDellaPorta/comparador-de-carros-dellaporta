@@ -1,3 +1,4 @@
+import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js';
 function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carroDigitadoNoInput) {
     sugestoes.forEach((sugestao) => {
         const itemLista = document.createElement('li');
@@ -5,6 +6,7 @@ function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carroDigitadoNoI
         itemLista.onclick = () => {
             carroDigitadoNoInput.value = sugestao.carro;
             listaSugerida.style.display = 'none';
+            preencherInfoDoCardDoCarro(sugestao, carroDigitadoNoInput);
         };
         listaSugerida.appendChild(itemLista);
     });
