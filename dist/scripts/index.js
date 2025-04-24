@@ -1,4 +1,4 @@
-import verificarCardCarro from './utils/verificarCardCarro.js';
+import ouvirInputCarro from './handlers/ouvirInputCarro.js';
 import limparCampo from './handlers/limparCampo.js';
-verificarCardCarro();
+ouvirInputCarro();
 limparCampo();
