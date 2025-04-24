@@ -1,7 +1,7 @@
 import listaCarros from './lista-carros.js';
 
-function filtrarCarros(carroDigitadoNoInput: HTMLInputElement) {
-  const carroDigitado = carroDigitadoNoInput.value.toLowerCase();
+function filtrarCarros(carro: HTMLInputElement) {
+  const carroDigitado = carro.value.toLowerCase();
   return listaCarros.filter((carroDaLista) =>
     carroDaLista.carro.toLowerCase().includes(carroDigitado)
   );

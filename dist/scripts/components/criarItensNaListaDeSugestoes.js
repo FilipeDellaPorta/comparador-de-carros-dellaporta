@@ -1,12 +1,12 @@
 import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js';
-function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carroDigitadoNoInput) {
+function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carro) {
     sugestoes.forEach((sugestao) => {
         const itemLista = document.createElement('li');
         itemLista.textContent = sugestao.carro;
         itemLista.onclick = () => {
-            carroDigitadoNoInput.value = sugestao.carro;
+            carro.value = sugestao.carro;
             listaSugerida.style.display = 'none';
-            preencherInfoDoCardDoCarro(sugestao, carroDigitadoNoInput);
+            preencherInfoDoCardDoCarro(sugestao, carro);
         };
         listaSugerida.appendChild(itemLista);
     });

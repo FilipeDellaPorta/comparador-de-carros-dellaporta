@@ -1,5 +1,6 @@
-function preencherInfoDoCardDoCarro(sugestao, carroDigitadoNoInput) {
-    const infoDeQualCarro = carroDigitadoNoInput.closest('.principal__cards');
+import ehDeQualCard from "../utils/ehDeQualCard.js";
+function preencherInfoDoCardDoCarro(sugestao, carro) {
+    const infoDeQualCarro = ehDeQualCard(carro);
     if (infoDeQualCarro) {
         const infoDoCarroNoInput = infoDeQualCarro.querySelector('.plus');
         if (infoDoCarroNoInput) {
