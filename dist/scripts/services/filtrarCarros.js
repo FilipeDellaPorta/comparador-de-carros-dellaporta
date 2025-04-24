@@ -1,4 +1,4 @@
-import listaCarros from './json/lista-carros.js';
+import listaCarros from './lista-carros.js';
 function filtrarCarros(carroDigitadoNoInput) {
     const carroDigitado = carroDigitadoNoInput.value.toLowerCase();
     return listaCarros.filter((carroDaLista) => carroDaLista.carro.toLowerCase().includes(carroDigitado));
