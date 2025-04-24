@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* https://colorhunt.co/palette/143f6bf55353feb139f6f54d */
+
 :root {
-    --cor-fundo: #ECEFCA;
-    --cor-texto: #94B4C1;
-    --cor-titulo: #547792;
-    --cor-destaque: #213448;
+    --cor-fundo: #0A192F;
+    --cor-texto: #E0F2FF;
+    --cor-titulo: #64FFDA;
+    --cor-destaque: #1E90FF;
     --cor-borda: #ccc;
 }
 
@@ -147,6 +149,7 @@ input:focus+label::after {
     max-height: 200px;
     overflow-y: auto;
     display: none;
+    color: var(--cor-fundo);
 }
 
 .lista-sugerida li {
@@ -174,6 +177,7 @@ input:focus+label::after {
 
 .car-slot.hidden {
     border: none;
+    width: 400px;
 }
 
 .plus {
@@ -183,4 +187,5 @@ input:focus+label::after {
 
 .plus.preenchido {
     font-size: 16px;
+    line-height: 24px;
 }
