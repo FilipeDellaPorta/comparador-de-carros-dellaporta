@@ -4,11 +4,13 @@ import ehDeQualCard from '../utils/ehDeQualCard.js';
 function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
   const infoDeQualCarro = ehDeQualCard(carro);
   if (infoDeQualCarro) {
-    const infoDoCarroNoInput = infoDeQualCarro.querySelector('.plus');
-    if (infoDoCarroNoInput) {
-      infoDoCarroNoInput.textContent = '';
-      infoDoCarroNoInput.classList.add('preenchido');
-      infoDoCarroNoInput.textContent = `
+    const infoCarro = infoDeQualCarro.querySelector('.plus');
+    const infoBorda = infoDeQualCarro.querySelector('.car-slot');
+    if (infoCarro && infoBorda) {
+      infoCarro.textContent = '';
+      infoCarro.classList.add('preenchido');
+      infoBorda.classList.add('hidden');
+      infoCarro.textContent = `
       Motor: ${sugestao.motor}
       Autonomia Inmetro: ${sugestao.autonomia_inmetro}
       Torque em Newton-metro: ${sugestao.torque_nm}

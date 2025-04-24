@@ -172,11 +172,15 @@ input:focus+label::after {
     transition: background-color 0.2s ease;
 }
 
+.car-slot.hidden {
+    border: none;
+}
+
 .plus {
     font-size: 3rem;
     color: var(--cor-borda);
 }
 
 .plus.preenchido {
-    background-color: #213448;
+    font-size: 16px;
 }

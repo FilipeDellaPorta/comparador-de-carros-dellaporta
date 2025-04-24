@@ -9,12 +9,15 @@ function limparCampo() {
       if (deQualDiv instanceof HTMLElement) {
         const carroInputado = deQualDiv.querySelector('.carro-input');
         const infoCarro = deQualDiv.querySelector('.plus');
+        const infoBorda = deQualDiv.querySelector('.car-slot');
         if (
           carroInputado instanceof HTMLInputElement &&
-          infoCarro instanceof HTMLSpanElement
+          infoCarro instanceof HTMLSpanElement &&
+          infoBorda instanceof HTMLDivElement
         ) {
           infoCarro.textContent = '+';
           infoCarro.classList.remove('preenchido');
+          infoBorda.classList.remove('hidden');
           carroInputado.value = '';
           carroInputado.focus();
           if (lixeira instanceof HTMLElement) {
