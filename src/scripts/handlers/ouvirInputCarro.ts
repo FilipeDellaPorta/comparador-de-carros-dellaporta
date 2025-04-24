@@ -1,5 +1,6 @@
 import carregarLista from '../components/carregarLista.js';
 import ehDeQualCard from '../utils/ehDeQualCard.js';
+import resetarCampos from '../utils/resetarCampos.js';
 
 function ouvirInputCarro() {
   const carrosInput = document.querySelectorAll('.carro-input');
@@ -8,9 +9,13 @@ function ouvirInputCarro() {
     if (carro instanceof HTMLInputElement) {
       const ehDeQualDiv = ehDeQualCard(carro);
       if (ehDeQualDiv instanceof HTMLElement) {
-        carro.addEventListener('input', () =>
-          carregarLista(ehDeQualDiv)
-        );
+        carro.addEventListener('input', () => {
+          if (carro.value.trim() === '') {
+            resetarCampos(carro, ehDeQualDiv);
+          } else {
+            carregarLista(ehDeQualDiv);
+          }
+        });
       }
     }
   });

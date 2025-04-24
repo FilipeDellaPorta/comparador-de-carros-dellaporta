@@ -1,4 +1,4 @@
-function visibilidadeDaLixeira(carro, lixeira) {
+function visibilidadeLixeira(carro, lixeira) {
     if (carro.value.trim() !== '') {
         lixeira.hidden = false;
     }
@@ -6,4 +6,4 @@ function visibilidadeDaLixeira(carro, lixeira) {
         lixeira.hidden = true;
     }
 }
-export default visibilidadeDaLixeira;
+export default visibilidadeLixeira;

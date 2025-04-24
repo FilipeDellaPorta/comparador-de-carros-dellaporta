@@ -1,4 +1,4 @@
-import visibilidadeDaLixeira from '../utils/visibilidadeDaLixeira.js';
+import visibilidadeDaLixeira from '../utils/visibilidadeLixeira.js';
 import filtrarCarros from '../services/filtrarCarros.js';
 import criarItensNaListaDeSugestoes from './criarItensNaListaDeSugestoes.js';
 
