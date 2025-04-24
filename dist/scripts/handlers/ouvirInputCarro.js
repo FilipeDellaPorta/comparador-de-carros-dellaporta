@@ -1,12 +1,15 @@
-import debounce from '../utils/debounce.js';
 import carregarLista from '../components/carregarLista.js';
-function ouvirInputCarro(carroDigitadoNoInput) {
-    const deQualCard = carroDigitadoNoInput.closest('.principal__cards');
-    const debounceCarregarLista = debounce(() => {
-        if (deQualCard instanceof HTMLElement) {
-            carregarLista(carroDigitadoNoInput, deQualCard);
+import ehDeQualCard from '../utils/ehDeQualCard.js';
+function ouvirInputCarro() {
+    const carrosInput = document.querySelectorAll('.carro-input');
+    const carros = Array.from(carrosInput);
+    carros.forEach((carro) => {
+        if (carro instanceof HTMLInputElement) {
+            const ehDeQualDiv = ehDeQualCard(carro);
+            if (ehDeQualDiv instanceof HTMLElement) {
+                carro.addEventListener('input', () => carregarLista(ehDeQualDiv));
+            }
         }
-    }, 100);
-    carroDigitadoNoInput.addEventListener('input', debounceCarregarLista);
+    });
 }
 export default ouvirInputCarro;
