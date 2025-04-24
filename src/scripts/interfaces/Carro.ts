@@ -5,10 +5,10 @@ export interface Carro {
   torque_nm: string;
   torque_kgfm: string;
   peso: string;
-  velocidade_máxima: string;
-  carregador_rápido_suportado: string;
+  velocidade_maxima: string;
+  carregador_rapido_suportado: string;
   tempo_de_carregamento: string;
   bateria: string;
-  potência: string;
-  preço_tabela_fipe: string;
+  potencia: string;
+  preco_tabela_fipe: string;
 }
