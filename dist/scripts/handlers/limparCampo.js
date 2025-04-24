@@ -6,7 +6,10 @@ function limparCampo() {
             const deQualCard = lixeira.closest('.principal__cards');
             if (deQualCard instanceof HTMLElement) {
                 const carroInputado = deQualCard.querySelector('.carro-input');
-                if (carroInputado instanceof HTMLInputElement) {
+                const infoCarro = deQualCard.querySelector('.plus');
+                if (carroInputado instanceof HTMLInputElement &&
+                    infoCarro instanceof HTMLSpanElement) {
+                    infoCarro.textContent = '';
                     carroInputado.value = '';
                     carroInputado.focus();
                     if (lixeira instanceof HTMLElement) {
