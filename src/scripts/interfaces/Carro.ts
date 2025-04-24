@@ -7,6 +7,7 @@ export interface Carro {
   peso_total: string;
   peso_em_ordem_de_marcha: string;
   velocidade_maxima: string;
+  aceleracao_0_100: string;
   carregador_rapido_suportado: string;
   tempo_de_carregamento: string;
   bateria: string;
