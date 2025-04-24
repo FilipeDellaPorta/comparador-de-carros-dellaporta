@@ -1,7 +1,8 @@
-import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js'
+import { Carro } from '../interfaces/carro.js';
+import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js';
 
 function criarItensNaListaDeSugestoes(
-  sugestoes: { carro: string; motor: string }[],
+  sugestoes: Carro[],
   listaSugerida: HTMLElement,
   carro: HTMLInputElement
 ) {
@@ -12,7 +13,7 @@ function criarItensNaListaDeSugestoes(
       carro.value = sugestao.carro;
       listaSugerida.style.display = 'none';
 
-      preencherInfoDoCardDoCarro(sugestao, carro)
+      preencherInfoDoCardDoCarro(sugestao, carro);
     };
     listaSugerida.appendChild(itemLista);
   });

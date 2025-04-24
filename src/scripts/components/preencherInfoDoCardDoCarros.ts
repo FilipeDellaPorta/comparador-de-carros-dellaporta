@@ -1,7 +1,8 @@
+import { Carro } from "../interfaces/carro.js";
 import ehDeQualCard from "../utils/ehDeQualCard.js";
 
 function preencherInfoDoCardDoCarro(
-  sugestao: { carro: string; motor: string },
+  sugestao: Carro,
   carro: HTMLInputElement
 ) {
   const infoDeQualCarro = ehDeQualCard(carro);
