@@ -6,6 +6,7 @@ function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
   if (infoDeQualCarro) {
     const infoDoCarroNoInput = infoDeQualCarro.querySelector('.plus');
     if (infoDoCarroNoInput) {
+      infoDoCarroNoInput.textContent = '';
       infoDoCarroNoInput.textContent = `
       Motor: ${sugestao.motor}
       Autonomia Inmetro: ${sugestao.autonomia_inmetro}
