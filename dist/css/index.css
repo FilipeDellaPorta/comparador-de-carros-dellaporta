@@ -176,3 +176,7 @@ input:focus+label::after {
     font-size: 3rem;
     color: var(--cor-borda);
 }
+
+.plus.preenchido {
+    background-color: #213448;
+}

@@ -13,7 +13,8 @@ function limparCampo() {
           carroInputado instanceof HTMLInputElement &&
           infoCarro instanceof HTMLSpanElement
         ) {
-          infoCarro.textContent = '';
+          infoCarro.textContent = '+';
+          infoCarro.classList.remove('preenchido');
           carroInputado.value = '';
           carroInputado.focus();
           if (lixeira instanceof HTMLElement) {
