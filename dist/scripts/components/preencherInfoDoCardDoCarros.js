@@ -1,20 +1,18 @@
 import ehDeQualCard from '../utils/ehDeQualCard.js';
 function preencherInfoDoCardDoCarro(sugestao, carro) {
     const infoDeQualCarro = ehDeQualCard(carro);
-    if (infoDeQualCarro) {
-        const infoCarro = infoDeQualCarro.querySelector('.plus');
-        const infoBorda = infoDeQualCarro.querySelector('.car-slot');
-        if (infoCarro && infoBorda) {
-            if (carro.value.trim() === '') {
-                infoCarro.textContent = '+';
-                infoCarro.classList.remove('preenchido');
-                infoBorda.classList.remove('hidden');
-                return;
-            }
-            infoCarro.textContent = '';
-            infoCarro.classList.add('preenchido');
-            infoBorda.classList.add('hidden');
-            infoCarro.innerHTML = `
+    const infoCarro = infoDeQualCarro.querySelector('.plus');
+    const infoBorda = infoDeQualCarro.querySelector('.car-slot');
+    if (carro.value.trim() === '') {
+        infoCarro.textContent = '+';
+        infoCarro.classList.remove('preenchido');
+        infoBorda.classList.remove('hidden');
+        return;
+    }
+    infoCarro.textContent = '';
+    infoCarro.classList.add('preenchido');
+    infoBorda.classList.add('hidden');
+    infoCarro.innerHTML = `
       Motor: ${sugestao.motor} <br>
       Autonomia Inmetro: ${sugestao.autonomia_inmetro} <br>
       Torque em Newton-metro: ${sugestao.torque_nm} <br>
@@ -27,7 +25,5 @@ function preencherInfoDoCardDoCarro(sugestao, carro) {
       Potência: ${sugestao.potencia} <br>
       Preço tabela fipe: ${sugestao.preco_tabela_fipe}
       `;
-        }
-    }
 }
 export default preencherInfoDoCardDoCarro;

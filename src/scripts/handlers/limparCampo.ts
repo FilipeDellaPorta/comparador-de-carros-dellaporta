@@ -6,15 +6,11 @@ function limparCampo() {
   const iconesLixeiras = document.querySelectorAll('.icone-lixeira');
   iconesLixeiras.forEach((lixeira) => {
     lixeira.addEventListener('click', () => {
-      const deQualDiv = ehDeQualCard(lixeira);
-      if (deQualDiv instanceof HTMLElement) {
-        const carro = deQualDiv.querySelector('.carro-input');
-        if (carro instanceof HTMLInputElement) {
-          resetarCampos(carro, deQualDiv);
-          if (lixeira instanceof HTMLElement) {
-            visibilidadeLixeira(carro, lixeira);
-          }
-        }
+      const deQualDiv = ehDeQualCard(lixeira) as HTMLElement;
+      const carro = deQualDiv.querySelector('.carro-input') as HTMLInputElement;
+      resetarCampos(carro, deQualDiv);
+      if (lixeira instanceof HTMLElement) {
+        visibilidadeLixeira(carro, lixeira);
       }
     });
   });
