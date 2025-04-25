@@ -9,8 +9,9 @@ export interface Carro {
   velocidade_maxima: string;
   aceleracao_0_100: string;
   carregador_rapido_suportado: string;
-  tempo_de_carregamento: string;
+  tempo_de_carregamento_30_a_80_dc: string;
   bateria: string;
   potencia: string;
-  preco_tabela_fipe: string;
+  preco_site: string;
+  link: string;
 }
