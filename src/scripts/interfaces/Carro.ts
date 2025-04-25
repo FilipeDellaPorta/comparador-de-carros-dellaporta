@@ -8,7 +8,7 @@ export interface Carro {
   peso_em_ordem_de_marcha: string;
   velocidade_maxima: string;
   aceleracao_0_100: string;
-  tempo_de_carregamento_30_a_80_dc: string;
+  tempo_de_carregamento_dc: string;
   bateria: string;
   potencia: string;
   preco_site: string;

@@ -23,7 +23,7 @@ function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
       Peso total: ${sugestao.peso_total} <br>
       Peso em ordem de marcha: ${sugestao.peso_em_ordem_de_marcha} <br>
       Velocidade máxima: ${sugestao.velocidade_maxima} <br>
-      Tempo de recarga (30% a 80%) DC: ${sugestao.tempo_de_carregamento_30_a_80_dc} <br>
+      Tempo de recarga DC: ${sugestao.tempo_de_carregamento_dc} <br>
       Capacidade de bateria: ${sugestao.bateria} <br>
       Potência: ${sugestao.potencia} <br>
       Preço no site: ${sugestao.preco_site} <br>
