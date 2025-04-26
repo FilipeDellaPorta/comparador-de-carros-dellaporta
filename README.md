@@ -27,7 +27,7 @@ Contém funções responsáveis por **criar elementos ou partes da interface**, 
 
 - `carregarLista.ts`  
 - `criarItensNaLista.ts`
-- `preencherInfoDoCardDoCarros.ts`  
+- `preencherInfoDoCardDoCarro.ts`  
 
 ---
 
