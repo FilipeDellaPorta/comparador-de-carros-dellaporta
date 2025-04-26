@@ -323,7 +323,7 @@ const listaCarros = [
         torque_kgfm: '61,6 kgfm',
         velocidade_maxima: '185 km/h',
         aceleracao_0_100: '5,3 segundos',
-        tempo_de_carregamento_ac: '',
+        tempo_de_carregamento_ac: '10% a 100% em 7 horas e 20 minutos (10,9 kW)',
         tempo_de_carregamento_dc: '10% a 80% em 18 minutos (350 kW)',
         bateria: '84 kWh',
         potencia: '325 cv',
