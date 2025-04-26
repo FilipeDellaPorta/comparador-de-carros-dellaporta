@@ -3,12 +3,7 @@ import ehDeQualCard from '../utils/ehDeQualCard.js';
 function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
   const infoDeQualCarro = ehDeQualCard(carro);
   const infoCarro = infoDeQualCarro.querySelector('.info-carro');
-  if (carro.value.trim() === '') {
-    infoCarro.classList.remove('preenchido');
-    return;
-  }
   infoCarro.textContent = '';
-  infoCarro.classList.add('preenchido');
   infoCarro.innerHTML = `
       Motor: ${sugestao.motor} <br>
       Autonomia Inmetro: ${sugestao.autonomia_inmetro} <br>
