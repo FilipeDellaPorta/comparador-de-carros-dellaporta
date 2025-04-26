@@ -6,7 +6,7 @@ A aplicação permite a comparação visual de até três modelos diferentes de 
 
 ## 💡 Status do Projeto
 
-🚧 Em desenvolvimento — ainda não está disponível ao público.
+🚧 Em desenvolvimento — mas está disponível ao público.
 
 # Estrutura da pasta `scripts/`
 
@@ -62,10 +62,6 @@ Não estão ligadas diretamente à interface, e podem ser reaproveitadas.
 - Substituir a lista fixa de carros por um JSON.
 - Integrar com uma API (quando estiver disponível).
 - Refatorar os componentes para usarem frameworks ou bibliotecas se necessário.
-
-## 📸 Preview
-
-*(Wireframe ou imagens do design aqui futuramente)*
 
 ---
 
