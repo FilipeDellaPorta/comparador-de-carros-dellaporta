@@ -8,8 +8,7 @@ const listaCarros = [
     torque_kgfm: '13,7 kgfm',
     velocidade_maxima: '130 km/h',
     aceleracao_0_100: '14,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '38 kWh',
     potencia: '75 cv',
     preco_site: 'R$118.800',
@@ -23,8 +22,7 @@ const listaCarros = [
     torque_kgfm: '13,7 kgfm',
     velocidade_maxima: '130 km/h',
     aceleracao_0_100: '14,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '38 kWh',
     potencia: '75 cv',
     preco_site: 'R$122.800',
@@ -38,8 +36,7 @@ const listaCarros = [
     torque_kgfm: '18,3 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '10,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '44,9 kWh',
     potencia: '95 cv',
     preco_site: 'R$159.800',
@@ -53,8 +50,7 @@ const listaCarros = [
     torque_kgfm: '31,6 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '7 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '60,48 kWh',
     potencia: '204 cv',
     preco_site: 'R$184.800',
@@ -68,8 +64,7 @@ const listaCarros = [
     torque_kgfm: '71,3 kgfm',
     velocidade_maxima: '186 km/h',
     aceleracao_0_100: '3,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 48 minutos',
+    tempo_de_carregamento: '30% a 80% 48 minutos',
     bateria: '85,4 kWh',
     potencia: '517 cv',
     preco_site: 'R$559.800',
@@ -83,8 +78,7 @@ const listaCarros = [
     torque_kgfm: '60,1 kgfm',
     velocidade_maxima: '180 km/h',
     aceleracao_0_100: '3,8 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '82,56 kWh',
     potencia: '531 cv',
     preco_site: 'R$299.800',
@@ -98,8 +92,7 @@ const listaCarros = [
     torque_kgfm: '71,3 kgfm',
     velocidade_maxima: '190 km/h',
     aceleracao_0_100: '4,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '108,8 kWh',
     potencia: '517 cv',
     preco_site: 'R$536.800',
@@ -112,9 +105,8 @@ const listaCarros = [
     torque_nm: '310 Nm',
     torque_kgfm: '31,6 kgfm',
     velocidade_maxima: '160 km/h',
-    aceleracao_0_100: '7,3 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    aceleracao_0_100: '7,3 segundos', 
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '60,48 kWh',
     potencia: '204 cv',
     preco_site: 'R$235.800',
@@ -128,8 +120,7 @@ const listaCarros = [
     torque_kgfm: '29,5 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '7,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '30% a 80% 29 minutos',
+    tempo_de_carregamento: '30% a 80% 29 minutos',
     bateria: '45,1 kWh',
     potencia: '177 cv',
     preco_site: 'R$182.800',
@@ -142,9 +133,8 @@ const listaCarros = [
     torque_nm: '605 Nm',
     torque_kgfm: '61,6 kgfm',
     velocidade_maxima: '185 km/h',
-    aceleracao_0_100: '5,3 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '10% a 80% 18 minutos',
+    aceleracao_0_100: '5,3 segundos', 
+    tempo_de_carregamento: '10% a 80% 18 minutos',
     bateria: '84 kWh',
     potencia: '325 cv',
     preco_site: 'R$409.990',
@@ -158,8 +148,7 @@ const listaCarros = [
     torque_kgfm: '71,3 kgfm',
     velocidade_maxima: '200 km/h',
     aceleracao_0_100: '5,3 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc:
+    tempo_de_carregamento:
       '30% a 80% em 24 minutos (carregador de 350 kW) ou em 83 minutos (carregador de 50 kW)',
     bateria: '99,8 kWh',
     potencia: '385 cv',
@@ -174,8 +163,7 @@ const listaCarros = [
     torque_kgfm: '31,6 kgfm',
     velocidade_maxima: '185 km/h',
     aceleracao_0_100: '8,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc:
+    tempo_de_carregamento:
       '30% a 80% em 27 minutos (carregador de 360 kW) ou em 83 minutos (carregador de 50 kW)',
     bateria: '88,16 kWh',
     potencia: '217,5 cv',
@@ -190,8 +178,7 @@ const listaCarros = [
     torque_kgfm: '25,5 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '8,2 segundos',
-    tempo_de_carregamento_ac: '15% a 100% 180 minutos',
-    tempo_de_carregamento_dc: '30% a 80% 30 minutos',
+    tempo_de_carregamento: '30% a 80% 30 minutos',
     bateria: '48 kWh',
     potencia: '171 cv',
     preco_site: 'R$169.000',
@@ -205,8 +192,7 @@ const listaCarros = [
     torque_kgfm: '25,5 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '8,2 segundos',
-    tempo_de_carregamento_ac: '15% a 100% 300 minutos',
-    tempo_de_carregamento_dc: '30% a 80% 40 minutos',
+    tempo_de_carregamento: '30% a 80% 40 minutos',
     bateria: '63 kWh',
     potencia: '171 cv',
     preco_site: 'R$199.000',
@@ -219,9 +205,8 @@ const listaCarros = [
     torque_nm: 'Nm',
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
-    aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+    aceleracao_0_100: 's', 
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
@@ -235,8 +220,7 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
@@ -250,9 +234,7 @@ const listaCarros = [
     torque_kgfm: '15,3 kgfm',
     velocidade_maxima: '100 km/h',
     aceleracao_0_100: '12,8 segundos',
-    tempo_de_carregamento_ac:
-      '100% em 300 minutos (carregador de parede 7 kWh) ou 660 minutos (tomada de 3 pinos 3kWh 220v)',
-    tempo_de_carregamento_dc: '80% em 36 minutos (50 kWh)',
+    tempo_de_carregamento: '80% em 36 minutos (50 kWh)',
     bateria: '30,8 kWh',
     potencia: '61 cv',
     preco_site: 'R$119.990',
@@ -266,8 +248,7 @@ const listaCarros = [
     torque_kgfm: '22,4 kgfm',
     velocidade_maxima: '-km/h',
     aceleracao_0_100: '9 segundos',
-    tempo_de_carregamento_ac: '80% em 240 minutos (7,4 kWh wallbox)',
-    tempo_de_carregamento_dc: '80% em 35 minutos (85 kWh)',
+    tempo_de_carregamento: '80% em 35 minutos (85 kWh)',
     bateria: '- kWh',
     potencia: '118 cv',
     preco_site: 'R$214.990',
@@ -281,8 +262,7 @@ const listaCarros = [
     torque_kgfm: '31,6 kgfm',
     velocidade_maxima: '160 km/h',
     aceleracao_0_100: '8,5 segundos',
-    tempo_de_carregamento_ac: '100% em 420 minutos (11 kW)',
-    tempo_de_carregamento_dc: '80% em 38 minutos (135 kW)',
+    tempo_de_carregamento: '80% em 38 minutos (135 kW)',
     bateria: '77 kWh',
     potencia: '204 cv',
     preco_site:
@@ -297,8 +277,7 @@ const listaCarros = [
     torque_kgfm: '31,6 kgfm',
     velocidade_maxima: '145 km/h',
     aceleracao_0_100: '10,2 segundos',
-    tempo_de_carregamento_ac: '100% em 450 minutos (11 kW)',
-    tempo_de_carregamento_dc: '5% a 80% em 30 minutos (170 kW)',
+    tempo_de_carregamento: '5% a 80% em 30 minutos (170 kW)',
     bateria: '77 kWh',
     potencia: '204 cv',
     preco_site:
@@ -313,9 +292,7 @@ const listaCarros = [
     torque_kgfm: '11,5 kgfm',
     velocidade_maxima: '130 km/h',
     aceleracao_0_100: '14,6 segundos',
-    tempo_de_carregamento_ac:
-      '100% (7,4 kW wallbox AC) 174 minutos ou (2,2 kW carregador portátil) 537 minutos',
-    tempo_de_carregamento_dc: '15% a 80% (30 kW) 40 minutos',
+    tempo_de_carregamento: '15% a 80% (30 kW) 40 minutos',
     bateria: '26,8 kWh',
     potencia: '65 cv',
     preco_site: 'R$139.990',
@@ -324,47 +301,45 @@ const listaCarros = [
   {
     carro: 'renault megane e-tech',
     motor: 'elétrico',
-    autonomia_inmetro: 'km',
-    torque_nm: 'Nm',
-    torque_kgfm: 'kgfm',
-    velocidade_maxima: 'km/h',
-    aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
-    bateria: 'kWh',
-    potencia: 'cv',
-    preco_site: 'R$',
-    link: '',
+    autonomia_inmetro: '337 km',
+    torque_nm: '301 Nm',
+    torque_kgfm: '30,6 kgfm',
+    velocidade_maxima: '160 km/h',
+    aceleracao_0_100: '7,4 segundos', 
+    tempo_de_carregamento:
+      '15% a 80% em 36 minutos (85 kW até 130 kW)',
+    bateria: '60 kWh',
+    potencia: '220 cv',
+    preco_site: 'R$279.900',
+    link: 'https://www.renault.com.br/veiculos-eletricos/megane-e-tech.html',
   },
   {
     carro: 'renault kangoo e-tech',
     motor: 'elétrico',
-    autonomia_inmetro: 'km',
-    torque_nm: 'Nm',
-    torque_kgfm: 'kgfm',
-    velocidade_maxima: 'km/h',
-    aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
-    bateria: 'kWh',
-    potencia: 'cv',
-    preco_site: 'R$',
-    link: '',
+    autonomia_inmetro: '210 km',
+    torque_nm: '246 Nm',
+    torque_kgfm: '25 kgfm',
+    velocidade_maxima: '- km/h',
+    aceleracao_0_100: '- s',
+    tempo_de_carregamento: '80% em 30 minutos (80 kW)',
+    bateria: '45 kWh',
+    potencia: '120 cv',
+    preco_site: 'R$299.390',
+    link: 'https://www.renault.com.br/veiculos-eletricos/kangoo-e-tech.html',
   },
   {
     carro: 'peugeot e-2008',
     motor: 'elétrico',
-    autonomia_inmetro: 'km',
-    torque_nm: 'Nm',
-    torque_kgfm: 'kgfm',
-    velocidade_maxima: 'km/h',
-    aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
-    bateria: 'kWh',
-    potencia: 'cv',
-    preco_site: 'R$',
-    link: '',
+    autonomia_inmetro: '261 km',
+    torque_nm: '260 Nm',
+    torque_kgfm: '26,5 kgfm',
+    velocidade_maxima: '150 km/h',
+    aceleracao_0_100: '8,9 segundos',
+    tempo_de_carregamento: '-% em 30 minutos (- kW)',
+    bateria: '54 kWh',
+    potencia: '158 cv',
+    preco_site: 'R$259.990',
+    link: 'https://carros.peugeot.com.br/gama/peugeot-e2008.html',
   },
   {
     carro: 'bmw ix',
@@ -374,12 +349,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw ix m60',
@@ -389,12 +364,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw i7',
@@ -404,12 +379,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw i4 gran coupe',
@@ -419,12 +394,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw i4 m50 xdrive gran coupe',
@@ -434,12 +409,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw ix3',
@@ -449,12 +424,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw ix2',
@@ -464,12 +439,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw ix1',
@@ -479,12 +454,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'bmw i5 m60',
@@ -494,12 +469,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi q6 e-tron',
@@ -509,12 +484,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi q8 e-tron',
@@ -524,12 +499,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi q8 sportback e-tron',
@@ -539,12 +514,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi sq8 sportback e-tron',
@@ -554,12 +529,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi e-tron gt quattro',
@@ -569,12 +544,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'audi rs e-tron gt',
@@ -584,12 +559,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz eqe sedan',
@@ -599,12 +574,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz eqa',
@@ -614,12 +589,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz eqb',
@@ -629,12 +604,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz eqe suv',
@@ -644,12 +619,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz eqs suv',
@@ -659,12 +634,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz amg eqs sedan',
@@ -674,12 +649,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'mercedes-benz amg eqe suv',
@@ -689,12 +664,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan',
@@ -704,12 +679,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan 4',
@@ -719,12 +694,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan 4s',
@@ -734,12 +709,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan gts',
@@ -749,12 +724,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan turbo',
@@ -764,12 +739,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan turbo s',
@@ -779,12 +754,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan turbo gt com pacote weissach',
@@ -794,12 +769,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan 4 cross turismo',
@@ -809,12 +784,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan 4s cross turismo',
@@ -824,12 +799,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche taycan turbo cross turismo',
@@ -839,12 +814,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche macan eletric',
@@ -854,12 +829,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche macan 4 eletric',
@@ -869,12 +844,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche macan 4s eletric',
@@ -884,12 +859,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'porsche macan turbo eletric',
@@ -899,12 +874,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'volvo ex90',
@@ -914,12 +889,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'volvo ex40',
@@ -929,12 +904,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'volvo ex30',
@@ -944,12 +919,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'volvo ec40',
@@ -959,12 +934,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'ford mustang mach-e',
@@ -974,12 +949,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'ford e-transit chassi',
@@ -989,12 +964,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'ford e-transit furgao',
@@ -1004,12 +979,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'chevrolet equinox ev',
@@ -1019,12 +994,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'chevrolet blazer ev',
@@ -1034,12 +1009,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-js1 city cargo',
@@ -1049,12 +1024,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jv5.5',
@@ -1064,12 +1039,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jv7l',
@@ -1079,12 +1054,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jv12',
@@ -1094,12 +1069,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac iev-330p',
@@ -1109,12 +1084,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jvcc',
@@ -1124,12 +1099,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac iev1200t',
@@ -1139,12 +1114,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jt9,5',
@@ -1154,12 +1129,12 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
   },
   {
     carro: 'jac e-jt12,5',
@@ -1169,12 +1144,27 @@ const listaCarros = [
     torque_kgfm: 'kgfm',
     velocidade_maxima: 'km/h',
     aceleracao_0_100: 's',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: 'h',
+     
+    tempo_de_carregamento: 'h',
     bateria: 'kWh',
     potencia: 'cv',
     preco_site: 'R$',
-    link: '',
+    link: 
+  },
+  {
+    carro: 'mini cooper elétrico',
+    motor: 'elétrico',
+    autonomia_inmetro: 'km',
+    torque_nm: 'Nm',
+    torque_kgfm: 'kgfm',
+    velocidade_maxima: 'km/h',
+    aceleracao_0_100: 's',
+     
+    tempo_de_carregamento: 'h',
+    bateria: 'kWh',
+    potencia: 'cv',
+    preco_site: 'R$',
+    link: 
   },
 ];
 
