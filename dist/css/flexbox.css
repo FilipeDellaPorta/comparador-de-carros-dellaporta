@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* MAIN */
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input-lixeira {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.input-lixeira input {
+    flex-grow: 1; /* input cresce para ocupar espaço livre */
+    min-width: 0; /* importante para o flex funcionar certinho sem quebrar */
+}
+
+.icone-lixeira {
+    flex-shrink: 0; /* lixeira NÃO diminui de tamanho */
+    cursor: pointer;
+}
+
+/* ESPAÇO COM AS INFORMAÇÕES DO CARRO DIGITADO */
+.car-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
