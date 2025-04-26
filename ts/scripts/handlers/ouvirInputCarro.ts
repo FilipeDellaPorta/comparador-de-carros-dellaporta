@@ -1,6 +1,6 @@
 import carregarLista from '../components/carregarLista.js';
 import ehDeQualCard from '../utils/ehDeQualCard.js';
-import resetarCampos from '../utils/resetarCampos.js';
+import limparCampos from '../utils/limparCampos.js';
 import visibilidadeLixeira from '../utils/visibilidadeLixeira.js';
 function ouvirInputCarro() {
   const carrosInput = document.querySelectorAll(
@@ -10,10 +10,12 @@ function ouvirInputCarro() {
   carros.forEach((carro) => {
     if (carro instanceof HTMLInputElement) {
       const ehDeQualDiv = ehDeQualCard(carro) as HTMLElement;
-      const lixeira = ehDeQualDiv.querySelector('.icone-lixeira') as HTMLElement;
+      const lixeira = ehDeQualDiv.querySelector(
+        '.icone-lixeira'
+      ) as HTMLElement;
       carro.addEventListener('input', () => {
         if (carro.value.trim() === '') {
-          resetarCampos(carro, ehDeQualDiv);
+          limparCampos(carro, ehDeQualDiv);
           visibilidadeLixeira(carro, lixeira);
         } else {
           carregarLista(ehDeQualDiv, carro);

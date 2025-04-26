@@ -1,4 +1,4 @@
 import ouvirInputCarro from './scripts/handlers/ouvirInputCarro.js';
-import limparCampo from './scripts/handlers/limparCampo.js';
+import ouvirQualLixeira from './scripts/handlers/ouvirQualLixeira.js';
 ouvirInputCarro();
-limparCampo();
+ouvirQualLixeira();
