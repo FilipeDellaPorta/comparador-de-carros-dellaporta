@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./dist/assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./dist/assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./dist/assets/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./dist/assets/favicon_io/site.webmanifest">
-    <link rel="stylesheet" href="./dist/css/style.css">
-    <link rel="stylesheet" href="./dist/css/label-flutuante.css">
-    <link rel="stylesheet" href="./dist/css/flexbox.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/label-flutuante.css">
     <title>Della Porta</title>
 </head>
 
@@ -20,25 +20,25 @@
     </header>
     <main class="principal">
         <div class="principal__cards">
-            <div class="label-flutuante">
+            <form>
                 <input type="text" id="carro-a" class="carro-input" name="carro" placeholder="" autocomplete="off">
                 <label for="carro-a">
                     <span class="carro-span">Digite o carro:</span>
                 </label>
-                <span class="icone-lixeira" hidden title="limpar campo">🗑️</span>
-            </div>
-            <span class="info-card"></span>
+            </form>
+            <span class="icone-lixeira" hidden title="limpar campo">🗑️</span>
+            <span class="info-carro"></span>
             <ul class="lista-sugerida"></ul>
         </div>
         <div class="principal__cards">
-            <div class="label-flutuante">
-                <input type="text" id="carro-a" class="carro-input" name="carro" placeholder="" autocomplete="off">
-                <label for="carro-a">
+            <form>
+                <input type="text" id="carro-b" class="carro-input" name="carro" placeholder="" autocomplete="off">
+                <label for="carro-b">
                     <span class="carro-span">Digite o carro:</span>
-                    <span class="icone-lixeira" hidden title="limpar campo">🗑️</span>
                 </label>
-            </div>
-            <span class="info-card"></span>
+            </form>
+            <span class="icone-lixeira" hidden title="limpar campo">🗑️</span>
+            <span class="info-carro"></span>
             <ul class="lista-sugerida"></ul>
         </div>
     </main>
@@ -46,7 +46,7 @@
         <p class="rodape__paragrafo">&copy; 2025 Todos os direitos reservados.</p>
     </footer>
 
-    <script src="./dist/scripts/index.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>

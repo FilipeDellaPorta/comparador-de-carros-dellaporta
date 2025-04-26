@@ -1,8 +1,10 @@
-import ehDeQualCard from './ehDeQualCard.js';
-import resetarCampos from './resetarCampos.js';
-import visibilidadeLixeira from './visibilidadeLixeira.js';
+import ehDeQualCard from '../utils/ehDeQualCard.js';
+import resetarCampos from '../utils/resetarCampos.js';
+import visibilidadeLixeira from '../utils/visibilidadeLixeira.js';
 function limparCampo() {
-  const iconesLixeiras = document.querySelectorAll('.icone-lixeira');
+  const iconesLixeiras = document.querySelectorAll(
+    '.icone-lixeira'
+  ) as NodeListOf<HTMLElement>;
   iconesLixeiras.forEach((lixeira) => {
     lixeira.addEventListener('click', () => {
       const deQualDiv = ehDeQualCard(lixeira);

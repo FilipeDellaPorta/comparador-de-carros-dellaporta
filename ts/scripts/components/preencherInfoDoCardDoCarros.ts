@@ -1,7 +1,8 @@
-import ehDeQualCard from './ehDeQualCard.js';
-function preencherInfoDoCardDoCarro(sugestao, carro) {
+import { Carro } from '../types/carro.js';
+import ehDeQualCard from '../utils/ehDeQualCard.js';
+function preencherInfoDoCardDoCarro(sugestao: Carro, carro: HTMLInputElement) {
   const infoDeQualCarro = ehDeQualCard(carro);
-  const infoCarro = infoDeQualCarro.querySelector('.info-card');
+  const infoCarro = infoDeQualCarro.querySelector('.info-carro');
   if (carro.value.trim() === '') {
     infoCarro.classList.remove('preenchido');
     return;

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "ES6",
+        "outDir": "./js",
+        "rootDir": "./ts",
+        "noEmitOnError": true,
+        "strict": true
+    },
+    "include": [
+        "ts/**/*"
+    ]
+}
