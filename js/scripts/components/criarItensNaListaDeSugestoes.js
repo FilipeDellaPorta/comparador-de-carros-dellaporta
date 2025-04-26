@@ -1,4 +1,4 @@
-import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js';
+import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarro.js';
 function criarItensNaListaDeSugestoes(sugestoes, listaSugerida, carro) {
     sugestoes.forEach((sugestao) => {
         const itemLista = document.createElement('li');

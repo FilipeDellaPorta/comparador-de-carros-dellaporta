@@ -1,5 +1,5 @@
 import { Carro } from '../types/carro.js';
-import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarros.js';
+import preencherInfoDoCardDoCarro from './preencherInfoDoCardDoCarro.js';
 function criarItensNaListaDeSugestoes(
   sugestoes: Carro[],
   listaSugerida: HTMLElement,
