@@ -218,7 +218,10 @@ const listaCarros = [
         torque_kgfm: '11,5 kgfm',
         velocidade_maxima: '130 km/h',
         aceleracao_0_100: '14,6 segundos',
-        tempo_de_carregamento_ac: '15% a 80% em 2 horas e 54 minutos (7,4 kW) ou 8 horas e 57 minutos (2,2 kW)',
+        tempo_de_carregamento_ac: `
+    <br>15% a 80% em 2 horas e 54 minutos (7,4 kW) ou<br> 
+    8 horas e 57 minutos (2,2 kW)
+    `,
         tempo_de_carregamento_dc: '15% a 80% 40 minutos (30 kW)',
         bateria: '26,8 kWh',
         potencia: '65 cv',
@@ -233,7 +236,11 @@ const listaCarros = [
         torque_kgfm: '30,6 kgfm',
         velocidade_maxima: '160 km/h',
         aceleracao_0_100: '7,4 segundos',
-        tempo_de_carregamento_ac: '15% a 80% em 1 hora e 50 minutos (22 kW) ou 4 horas e 10 minutos (11 kW) ou 6 horas e 1 minuto (7 kW)',
+        tempo_de_carregamento_ac: `
+    <br>15% a 80% em 1 hora e 50 minutos (22 kW) ou<br>
+    4 horas e 10 minutos (11 kW) ou<br>
+    6 horas e 1 minuto (7 kW)
+    `,
         tempo_de_carregamento_dc: '15% a 80% em 36 minutos (130 kW)',
         bateria: '60 kWh',
         potencia: '220 cv',
@@ -293,8 +300,16 @@ const listaCarros = [
         torque_kgfm: '15,3 kgfm',
         velocidade_maxima: '110 km/h',
         aceleracao_0_100: '10,7 s',
-        tempo_de_carregamento_ac: '0 a 80% ac wall box 4 horas e 10 minutos (6 kW) ou 8 horas e 20 minutos (3 kW) / 20% a 100% ac cabo portátil em 10 horas (3 kW a 6 kW) ou 0 a 100% ac cabo portátil em 12 horas e 30 minutos (3 kW a 6 kW)',
-        tempo_de_carregamento_dc: '0 a 100% em 1 hora e 30 minutos (3 kW a 6 kW) ou 0 a 80% em 1 hora e 15 minutos (3 kW a 6 kW)',
+        tempo_de_carregamento_ac: `
+    <br>0 a 80% ac wall box 4 horas e 10 minutos (6 kW) ou<br>
+    8 horas e 20 minutos (3 kW)<br>
+    20% a 100% ac cabo portátil em 10 horas (3 kW a 6 kW) ou<br>
+    0 a 100% ac cabo portátil em 12 horas e 30 minutos (3 kW a 6 kW)
+    `,
+        tempo_de_carregamento_dc: `
+    <br>0 a 100% em 1 hora e 30 minutos (3 kW a 6 kW) ou<br>
+    0 a 80% em 1 hora e 15 minutos (3 kW a 6 kW)
+    `,
         bateria: '30 kWh',
         potencia: '62 cv',
         preco_site: 'R$132.900',
@@ -324,7 +339,10 @@ const listaCarros = [
         velocidade_maxima: '200 km/h',
         aceleracao_0_100: '5,3 segundos',
         tempo_de_carregamento_ac: '0 a 100% em 9 horas e 45 minutos (11 kW)',
-        tempo_de_carregamento_dc: '30% a 80% em 24 minutos (carregador de 350 kW) ou em 83 minutos (carregador de 50 kW)',
+        tempo_de_carregamento_dc: `
+    <br>30% a 80% em 24 minutos (carregador de 350 kW) ou<br>
+    em 83 minutos (carregador de 50 kW)
+    `,
         bateria: '99,8 kWh',
         potencia: '385 cv',
         preco_site: 'R$749.990',
@@ -338,8 +356,14 @@ const listaCarros = [
         torque_kgfm: '31,6 kgfm',
         velocidade_maxima: '185 km/h',
         aceleracao_0_100: '8,9 segundos',
-        tempo_de_carregamento_ac: '0 a 100% em 8 horas e 10 minutos (11 kW) ou 9 horas e 40 minutos (7 kW)',
-        tempo_de_carregamento_dc: '30% a 80% em 27 minutos (carregador de 360 kW) ou em 83 minutos (carregador de 50 kW)',
+        tempo_de_carregamento_ac: `
+    <br>0 a 100% em 8 horas e 10 minutos (11 kW) ou<br>
+    9 horas e 40 minutos (7 kW)
+    `,
+        tempo_de_carregamento_dc: `
+    <br>30% a 80% em 27 minutos (carregador de 360 kW) ou<br>
+    em 83 minutos (carregador de 50 kW)
+    `,
         bateria: '88,16 kWh',
         potencia: '217,5 cv',
         preco_site: 'R$389.990',
