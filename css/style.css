@@ -48,6 +48,10 @@ body {
     position: relative;
 }
 
+.icone-lixeira {
+    color: var(--cor-destaque)
+}
+
 /* INFO DO CARRO */
 
 .info-carrro {
@@ -57,6 +61,11 @@ body {
 .info-carro.preenchido {
     font-size: 16px;
     line-height: 24px;
+}
+
+.link-carro {
+    text-decoration: none;
+    color: var(--cor-destaque);
 }
 
 

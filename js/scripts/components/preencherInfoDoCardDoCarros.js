@@ -19,7 +19,7 @@ function preencherInfoDoCardDoCarro(sugestao, carro) {
       Capacidade de bateria: ${sugestao.bateria} <br>
       Potência: ${sugestao.potencia} <br>
       Preço no site: ${sugestao.preco_site} <br>
-      Link: <a href="${sugestao.link}" target="_blank" rel="noopener noreferrer">${sugestao.carro}</a>
+      Link: <a href="${sugestao.link}" target="_blank" rel="noopener noreferrer" class="link-carro">${sugestao.carro}</a>
       `;
 }
 export default preencherInfoDoCardDoCarro;
