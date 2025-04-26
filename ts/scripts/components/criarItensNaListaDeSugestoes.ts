@@ -11,9 +11,6 @@ function criarItensNaListaDeSugestoes(
     itemLista.onclick = () => {
       carro.value = sugestao.carro;
       listaSugerida.style.display = 'none';
-      const inputs = document.querySelectorAll(
-        '.carro-input'
-      ) as NodeListOf<HTMLInputElement>;
       preencherInfoDoCardDoCarro(sugestao, carro);
     };
     listaSugerida.appendChild(itemLista);
