@@ -1,18 +1,14 @@
-import ehDeQualCard from '../utils/ehDeQualCard.js';
+import ehDeQualCard from './ehDeQualCard.js';
 function preencherInfoDoCardDoCarro(sugestao, carro) {
-    const infoDeQualCarro = ehDeQualCard(carro);
-    const infoCarro = infoDeQualCarro.querySelector('.plus');
-    const infoBorda = infoDeQualCarro.querySelector('.car-slot');
-    if (carro.value.trim() === '') {
-        infoCarro.textContent = '+';
-        infoCarro.classList.remove('preenchido');
-        infoBorda.classList.remove('hidden');
-        return;
-    }
-    infoCarro.textContent = '';
-    infoCarro.classList.add('preenchido');
-    infoBorda.classList.add('hidden');
-    infoCarro.innerHTML = `
+  const infoDeQualCarro = ehDeQualCard(carro);
+  const infoCarro = infoDeQualCarro.querySelector('.info-card');
+  if (carro.value.trim() === '') {
+    infoCarro.classList.remove('preenchido');
+    return;
+  }
+  infoCarro.textContent = '';
+  infoCarro.classList.add('preenchido');
+  infoCarro.innerHTML = `
       Motor: ${sugestao.motor} <br>
       Autonomia Inmetro: ${sugestao.autonomia_inmetro} <br>
       Torque em Newton-metro: ${sugestao.torque_nm} <br>
@@ -23,7 +19,7 @@ function preencherInfoDoCardDoCarro(sugestao, carro) {
       Capacidade de bateria: ${sugestao.bateria} <br>
       Potência: ${sugestao.potencia} <br>
       Preço no site: ${sugestao.preco_site} <br>
-      Link:  <a href="${sugestao.link}" target="_blank" rel="noopener noreferrer">${sugestao.carro}</a>
+      Link: <a href="${sugestao.link}" target="_blank" rel="noopener noreferrer">${sugestao.carro}</a>
       `;
 }
 export default preencherInfoDoCardDoCarro;

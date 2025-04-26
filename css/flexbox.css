@@ -18,6 +18,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.principal__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .input-lixeira {
@@ -34,11 +44,4 @@ body {
 .icone-lixeira {
     flex-shrink: 0; /* lixeira NÃO diminui de tamanho */
     cursor: pointer;
-}
-
-/* ESPAÇO COM AS INFORMAÇÕES DO CARRO DIGITADO */
-.car-slot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
