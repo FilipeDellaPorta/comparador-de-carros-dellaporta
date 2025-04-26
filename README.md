@@ -26,14 +26,15 @@ Ponto de entrada principal do app. Responsável por importar e inicializar as fu
 Contém funções responsáveis por **criar elementos ou partes da interface**, como listas, sugestões, ou estruturas visuais reutilizáveis.
 
 - `carregarLista.ts`  
-- `criarItensNaLista.ts`  
+- `criarItensNaLista.ts`
+- `preencherInfoDoCardDoCarros.ts`  
 
 ---
 
 ## 📁 handlers/
 Contém funções que **lidam com eventos** ou ações diretas do usuário, como cliques ou digitação.
 
-- `limparCampo.ts`  
+- `ouvirQualLixeira.ts`  
 - `ouvirInputCarro.ts`  
 
 ---
@@ -42,7 +43,7 @@ Contém funções que **lidam com eventos** ou ações diretas do usuário, como
 Contém a **lógica de negócios** da aplicação.  
 Aqui ficam funções que lidam com dados e regras, como busca e filtragem.
 
-- `filtrarCarro.ts`  
+- `filtrarCarros.ts`  
   - Inclui também uma lista inicial de carros para busca.
   - No futuro, poderá ser substituído por um JSON externo ou uma API.
 
@@ -52,9 +53,9 @@ Aqui ficam funções que lidam com dados e regras, como busca e filtragem.
 Funções **utilitárias** e genéricas que ajudam o projeto como um todo.  
 Não estão ligadas diretamente à interface, e podem ser reaproveitadas.
 
-- `debounce.ts`  
-- `verificarCardCarro.ts`  
+- `ehDeQualCard.ts`  
 - `visibilidadeDaLixeira.ts`
+- `limparCampo.ts`
 
 ---
 
