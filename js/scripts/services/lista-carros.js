@@ -99,7 +99,7 @@ const listaCarros = [
         velocidade_maxima: '190 km/h',
         aceleracao_0_100: '4,9 segundos',
         tempo_de_carregamento_ac: 'não localizado no site da montadora',
-        tempo_de_carregamento_dc: '30% a 80% em 30 minutos (110-170 kW)',
+        tempo_de_carregamento_dc: '30% a 80% em 30 minutos (110 kW)',
         bateria: '108,8 kWh',
         potencia: '517 cv',
         preco_site: 'R$536.800',
