@@ -380,7 +380,7 @@ const listaCarros = [
         autonomia_inmetro: '379 km',
         torque_nm: '860 Nm',
         torque_kgfm: '87,6 kgfm',
-        velocidade_maxima: 'km/h',
+        velocidade_maxima: '200 km/h',
         aceleracao_0_100: '3,7 segundos',
         tempo_de_carregamento_ac: `
     <br>0 a 100% em 11 horas (11 kW) ou<br>
