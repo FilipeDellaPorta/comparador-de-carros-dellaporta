@@ -64,6 +64,10 @@ body {
     color: var(--cor-destaque);
 }
 
+.specs-carro {
+    color: var(--cor-destaque);
+}
+
 /* LISTA DE CARROS */
 
 .lista-sugerida {
