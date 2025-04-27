@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Tempo de Recarga Realista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .resultado {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🔋 Calculadora Realista de Tempo de Recarga</h2>
+
+    <label>Capacidade da bateria (kWh):</label>
+    <input type="number" id="bateria" placeholder="Ex: 48" step="0.1">
+
+    <label>% Inicial de carga:</label>
+    <input type="number" id="inicial" placeholder="Ex: 15" step="0.1">
+
+    <label>% Final de carga:</label>
+    <input type="number" id="final" placeholder="Ex: 100" step="0.1">
+
+    <label>Potência do carregador (kW):</label>
+    <input type="number" id="potencia" placeholder="Ex: 11" step="0.1">
+
+    <button onclick="calcular()">Calcular Tempo</button>
+
+    <div class="resultado" id="resultado"></div>
+
+    <script>
+        function calcular() {
+            const bateria = parseFloat(document.getElementById('bateria').value);
+            const inicial = parseFloat(document.getElementById('inicial').value) / 100;
+            const final = parseFloat(document.getElementById('final').value) / 100;
+            const potencia = parseFloat(document.getElementById('potencia').value);
+
+            if (isNaN(bateria) || isNaN(inicial) || isNaN(final) || isNaN(potencia)) {
+                document.getElementById('resultado').innerText = '⚠️ Preencha todos os campos corretamente!';
+                return;
+            }
+
+            const energia = bateria * (final - inicial);
+            const tempoTeorico = energia / (potencia * 0.9); // cálculo ideal
+            const tempoRealista = tempoTeorico * 1.15; // aplica fator conservador de 15%
+
+            const horas = Math.floor(tempoRealista);
+            const minutos = Math.round((tempoRealista - horas) * 60);
+
+            document.getElementById('resultado').innerText = `⏱️ Tempo estimado: ${horas}h ${minutos}min (ajustado para vida real)`;
+        }
+    </script>
+
+</body>
+
+</html>
