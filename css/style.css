@@ -64,6 +64,10 @@ body {
     color: var(--cor-destaque);
 }
 
+.link-carro:hover {
+    color: var(--cor-titulo)
+}
+
 .specs-carro {
     color: var(--cor-destaque);
 }
