@@ -255,8 +255,13 @@ const listaCarros = [
     torque_kgfm: '26,5 kgfm',
     velocidade_maxima: '150 km/h',
     aceleracao_0_100: '8,9 segundos',
-    tempo_de_carregamento_ac: '',
-    tempo_de_carregamento_dc: '',
+    tempo_de_carregamento_ac: `
+    <br>0 a 80% em 6 horas e 2 minutos (7 kw - 22 kW) ou<br>
+    24 horas e 56 minutos (tomada 220v)`,
+    tempo_de_carregamento_dc: `
+    <br>0 a 80% em 30 minutos (100 kW) ou<br>
+    53 minutos (50 kw)
+    `,
     bateria: '54 kWh',
     potencia: '158 cv',
     preco_site: 'R$259.990',
