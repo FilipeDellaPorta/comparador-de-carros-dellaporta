@@ -9,6 +9,7 @@ function preencherInfoDoCardDoCarro(sugestao, carro) {
       Torque em Newton-metro: <span class="specs-carro">${sugestao.torque_nm}</span> <br>
       Torque em quilograma-força por metro: <span class="specs-carro">${sugestao.torque_kgfm}</span> <br>
       Velocidade máxima: <span class="specs-carro">${sugestao.velocidade_maxima}</span> <br>
+      Aceleração 0 a 100: <span class="specs-carro">${sugestao.aceleracao_0_100}</span> <br>
       Tempo da recarga mais rápida DC: <span class="specs-carro">${sugestao.tempo_de_carregamento_dc}</span> <br>
       Capacidade de bateria: <span class="specs-carro">${sugestao.bateria}</span> <br>
       Potência: <span class="specs-carro">${sugestao.potencia}</span> <br>
